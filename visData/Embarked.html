@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.1.min.js" integrity="sha384-qkRvDQVAIfzsJo40iRBbxt6sttt0hv4lh74DG7OK4MCHv4C5oohXYoHUM5W11uqS" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="94937472-89f0-4444-a15f-7eadbc244fd6" data-root-id="1706"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1850">
+          {"09ad64ea-c442-4ada-bb95-efd4087c2ca0":{"roots":{"references":[{"attributes":{},"id":"1727","type":"SaveTool"},{"attributes":{"line_alpha":0.1,"line_color":"firebrick","line_width":3,"x":{"field":"Embarked"},"y":{"field":"LineData"}},"id":"1747","type":"Line"},{"attributes":{},"id":"1751","type":"BasicTicker"},{"attributes":{"line_color":"firebrick","line_width":3,"x":{"field":"Embarked"},"y":{"field":"LineData"}},"id":"1746","type":"Line"},{"attributes":{"factors":["1_Southampton","2_Cherbourg","3_Queenstown"]},"id":"1709","type":"FactorRange"},{"attributes":{},"id":"1711","type":"DataRange1d"},{"attributes":{"end":1.05,"start":-0.05},"id":"1743","type":"Range1d"},{"attributes":{"formatter":{"id":"1756"},"ticker":{"id":"1718"}},"id":"1717","type":"CategoricalAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1730","type":"BoxAnnotation"},{"attributes":{},"id":"1718","type":"CategoricalTicker"},{"attributes":{"source":{"id":"1705"}},"id":"1749","type":"CDSView"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"BarData"},"width":{"value":0.5},"x":{"field":"Embarked"}},"id":"1739","type":"VBar"},{"attributes":{"data":{"BarData":[644,168,77],"Embarked":["1_Southampton","2_Cherbourg","3_Queenstown"],"LineData":{"__ndarray__":"WchCFrKQ1T9u27Zt27bhP4K9Y2pg79g/","dtype":"float64","order":"little","shape":[3]},"index":[0,1,2]},"selected":{"id":"1757"},"selection_policy":{"id":"1758"}},"id":"1705","type":"ColumnDataSource"},{"attributes":{},"id":"1752","type":"BasicTickFormatter"},{"attributes":{},"id":"1728","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1724"},{"id":"1725"},{"id":"1726"},{"id":"1727"},{"id":"1728"},{"id":"1729"}]},"id":"1731","type":"Toolbar"},{"attributes":{},"id":"1715","type":"LinearScale"},{"attributes":{},"id":"1713","type":"CategoricalScale"},{"attributes":{"text":"Embarked"},"id":"1707","type":"Title"},{"attributes":{"axis":{"id":"1717"},"ticker":null},"id":"1719","type":"Grid"},{"attributes":{},"id":"1754","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"1754"},"ticker":{"id":"1721"}},"id":"1720","type":"LinearAxis"},{"attributes":{},"id":"1756","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1729","type":"HelpTool"},{"attributes":{},"id":"1725","type":"WheelZoomTool"},{"attributes":{},"id":"1724","type":"PanTool"},{"attributes":{"formatter":{"id":"1752"},"ticker":{"id":"1751"},"y_range_name":"LineAxis"},"id":"1744","type":"LinearAxis"},{"attributes":{"overlay":{"id":"1730"}},"id":"1726","type":"BoxZoomTool"},{"attributes":{"data_source":{"id":"1705"},"glyph":{"id":"1746"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1747"},"selection_glyph":null,"view":{"id":"1749"},"y_range_name":"LineAxis"},"id":"1748","type":"GlyphRenderer"},{"attributes":{},"id":"1721","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"BarData"},"width":{"value":0.5},"x":{"field":"Embarked"}},"id":"1740","type":"VBar"},{"attributes":{"below":[{"id":"1717"}],"center":[{"id":"1719"},{"id":"1723"}],"extra_y_ranges":{"LineAxis":{"id":"1743"}},"left":[{"id":"1720"}],"renderers":[{"id":"1741"},{"id":"1748"}],"right":[{"id":"1744"}],"title":{"id":"1707"},"toolbar":{"id":"1731"},"x_range":{"id":"1709"},"x_scale":{"id":"1713"},"y_range":{"id":"1711"},"y_scale":{"id":"1715"}},"id":"1706","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1757","type":"Selection"},{"attributes":{},"id":"1758","type":"UnionRenderers"},{"attributes":{"source":{"id":"1705"}},"id":"1742","type":"CDSView"},{"attributes":{"data_source":{"id":"1705"},"glyph":{"id":"1739"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1740"},"selection_glyph":null,"view":{"id":"1742"}},"id":"1741","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"1720"},"dimension":1,"ticker":null},"id":"1723","type":"Grid"}],"root_ids":["1706"]},"title":"Bokeh Application","version":"2.2.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1850').textContent;
+                  var render_items = [{"docid":"09ad64ea-c442-4ada-bb95-efd4087c2ca0","root_ids":["1706"],"roots":{"1706":"94937472-89f0-4444-a15f-7eadbc244fd6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
